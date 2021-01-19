@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duhoot</title>
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href='#' class="header__logo">
+                    <img src="./icons/logo.png" alt="">
+                </a>
+                <nav class="header__navbar">
+                    <a href="#">Reality</a>
+                    <a href="#">Living</a>
+                    <a href="#">Education</a>
+                    <a href="#">Entertaiment</a>
+                    <a href="#">Mobility</a>
+                </nav>
+                <div class="header__menu">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="header__buttons">
+            <div class="header__search">
+                <img src="./icons/search.png" alt="">
+            </div>
+            <div class="header__login">
+                <img src="./icons/login.png" alt="">
+                <p>login</p>
+            </div>
+        </div>
+        <div class="header__hidden">
+            <nav class="header__links">
+                <a href="#">Reality</a>
+                <a href="#">Living</a>
+                <a href="#">Education</a>
+                <a href="#">Entertaiment</a>
+                <a href="#">Mobility</a>
+            </nav>
+            <div class="header__nav">
+                <div class="header__search">
+                    <img src="./icons/search.png" alt="">
+                </div>
+                <div class="header__login">
+                    <img src="./icons/login.png" alt="">
+                    <p>login</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="search">
+        <div class="container">
+            <div class="search__inner">
+                <h2 class="search__title">
+                    What are you looking for?
+                </h2>
+                <form class="search__form">
+                    <div class="search__selects">
+                        <div class="select__wrapper">
+                            <select class="search__select">
+                                <option>Dubai</option>
+                                <option>Education</option>
+                                <option>Dubai</option>
+                                <option>Dubai</option>
+                            </select>
+                        </div>
+
+                        <div class="select__wrapper">
+                            <select class="search__select">
+                                <option>Education</option>
+                                <option>Dubai</option>
+                                <option>Education</option>
+                                <option>Education</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Keyword, name, date, ..." class="search__input">
+
+                    <button class="search__button">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="filter">
+        <div class="container">
+            <div class="filter__inner">
+                <div class="filter__toggles">
+                    <a href="#" class="filter__link" data-filter='posts__item'>Recommended</a>
+                    <a href="#" class="filter__link" data-filter='latest'>Latest</a>
+                    <a href="#" class="filter__link" data-filter='highlights'>Highlights</a>
+                </div>
+                <div class="filter__selections">
+                    <div class="select__wrapper select__wrapper_black">
+                        <select class="filter__select">
+                            <option>Dubai</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <button class="filter__button">
+                        Hide map
+                        <img src="./icons/map.png" alt="">
+                    </button>
+                </div>
+                <div class="filter__topics">
+                    <p>filter:</p>
+                    <div class="filter__icons">
+                        <div class="filter__icon filter__icon_green"><img src="./icons/house.png" alt=""></div>
+                        <div class="filter__icon filter__icon_purple"><img src="./icons/person.png" alt=""></div>
+                        <div class="filter__icon filter__icon_green"><img src="./icons/education.png" alt=""></div>
+                        <div class="filter__icon filter__icon_orange"><img src="./icons/music.png" alt=""></div>
+                        <div class="filter__icon filter__icon_purple"><img src="./icons/transport.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="filter__menu">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="posts">
+        <div class="container">
+            <div class="posts__inner">
+
+                <div class="posts__item posts_small posts_green latest">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_home.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            2 bedroom house for rent in Dubai
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                vision agency
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (365)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_orange latest">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_beach.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/music.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            Beach party festival 2014
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                long beach
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (1165)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_purple latest">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_home.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/transport.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            Aliquam quis pulvinar purus
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                bus trans
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (365)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_green latest">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_apartaments.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            4 bedroom house for rent in Dubai
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                reality agency
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (165)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second row -->
+
+                <div class="posts__item posts_big posts_green highlights">
+                    <div class="posts__header">
+                        <div class="posts__image">
+                            <div class="posts__hidden">
+                                <div class="posts__button">
+                                    <img src="./icons/search_small.png" alt="">
+                                    Show more
+                                </div>
+                                <div class="posts__rate">
+                                    <img src="./icons/rate.png" alt="">
+                                    <img src="./icons/comment.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./images/posts_apartaments-big.jpg" alt="">
+                        </div>
+                        <div class="posts__info_top">
+                            <p>vision agency</p>
+                            <img src="./icons/stars.png" alt="">
+                            <div class="posts__count">(365)</div>
+                        </div>
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+
+                        <div class="posts__footer">
+                            <div class="posts__avatar">
+                                <img src="./images/avatar1.jpg" alt="">
+                            </div>
+                            <div class="posts__review">
+                                <img src="./icons/stars-big.png" alt="">
+                                <div class="posts__login">LUCY-P</div>
+                                <div class="posts__text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                                    <a href='#' class="posts__more">
+                                        ...read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_big posts_orange highlights">
+                    <div class="posts__header">
+                        <div class="posts__image">
+                            <div class="posts__hidden">
+                                <div class="posts__button">
+                                    <img src="./icons/search_small.png" alt="">
+                                    Show more
+                                </div>
+                                <div class="posts__rate">
+                                    <img src="./icons/rate.png" alt="">
+                                    <img src="./icons/comment.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./images/posts_club-big.jpg" alt="">
+                        </div>
+                        <div class="posts__info_top">
+                            <p>skybox club</p>
+                            <img src="./icons/stars.png" alt="">
+                            <div class="posts__count">(1365)</div>
+                        </div>
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+
+                        <div class="posts__footer">
+                            <div class="posts__avatar">
+                                <img src="./images/avatar2.jpg" alt="">
+                            </div>
+                            <div class="posts__review">
+                                <img src="./icons/stars-big.png" alt="">
+                                <div class="posts__login">Peter145</div>
+                                <div class="posts__text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                                    <a href='#' class="posts__more">
+                                        ...read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third row -->
+
+                
+                <div class="posts__item posts_small posts_green">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_home.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            2 bedroom house for rent in Dubai
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                vision agency
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (365)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_orange">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_beach.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/music.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            Beach party festival 2014
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                long beach
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (1165)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_purple">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_home.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/transport.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            Aliquam quis pulvinar purus
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                bus trans
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (365)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_green">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_apartaments.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            4 bedroom house for rent in Dubai
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                reality agency
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (165)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- last one -->
+                
+                <div class="posts__item posts_big posts_orange">
+                    <div class="posts__header">
+                        <div class="posts__image">
+                            <div class="posts__hidden">
+                                <div class="posts__button">
+                                    <img src="./icons/search_small.png" alt="">
+                                    Show more
+                                </div>
+                                <div class="posts__rate">
+                                    <img src="./icons/rate.png" alt="">
+                                    <img src="./icons/comment.png" alt="">
+                                </div>
+                            </div>
+                            <img src="./images/posts_club-big.jpg" alt="">
+                        </div>
+                        <div class="posts__info_top">
+                            <p>skybox club</p>
+                            <img src="./icons/stars.png" alt="">
+                            <div class="posts__count">(1365)</div>
+                        </div>
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+
+                        <div class="posts__footer">
+                            <div class="posts__avatar">
+                                <img src="./images/avatar2.jpg" alt="">
+                            </div>
+                            <div class="posts__review">
+                                <img src="./icons/stars-big.png" alt="">
+                                <div class="posts__login">Peter145</div>
+                                <div class="posts__text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                                    <a href='#' class="posts__more">
+                                        ...read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_green">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_home.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/house.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            2 bedroom house for rent in Dubai
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                vision agency
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (365)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item posts_small posts_orange">
+                    <div class="posts__image">
+                        <div class="posts__hidden">
+                            <div class="posts__button">
+                                <img src="./icons/search_small.png" alt="">
+                                Show more
+                            </div>
+                            <div class="posts__rate">
+                                <img src="./icons/rate.png" alt="">
+                                <img src="./icons/comment.png" alt="">
+                            </div>
+                        </div>
+                        <img src="./images/posts_beach.jpg" alt="">
+                    </div>
+                    <div class="posts__info">
+                        <div class="posts__icon">
+                            <img src="./icons/music.png" alt="">
+                        </div>
+                        <div class="posts__descr">
+                            Beach party festival 2014
+                        </div>
+                        <div class="posts__footer">
+                            <div class="posts__subtext">
+                                long beach
+                            </div>
+                            <div class="posts__rating">
+                                <div class="posts__stars">
+                                    <img src="./icons/stars.png" alt="">
+                                </div>
+                                <div class="posts__count">
+                                    (1165)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="posts__more posts__more_outside">
+                    Load more &rarr;
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <section class="offer">
+        <div class="container">
+            <div class="offer__inner">
+
+                <div class="offer__header">
+                    <h2 class="offer__title">What can DuHoot offer to you?</h2>
+                    <div class="offer__subtitle">Etiam cursus ipsum quis enim faucibus</div>
+                </div>
+
+                <div class="offer__content">
+                    <div class="offer__icons">
+                        <div class="offer__item offer__item_active">
+                            <img src="./icons/house-big.png" alt="">
+                        </div>
+                        <div class="offer__delay"></div>
+                        <div class="offer__item">
+                            <img src="./icons/person-big.png" alt="">
+                        </div>
+                        <div class="offer__delay"></div>
+                        <div class="offer__item">
+                            <img src="./icons/education-big.png" alt="">
+                        </div>
+                        <div class="offer__delay"></div>
+                        <div class="offer__item">
+                            <img src="./icons/music-big.png" alt="">
+                        </div>
+                        <div class="offer__delay"></div>
+                        <div class="offer__item">
+                            <img src="./icons/transport-big.png" alt="">
+                        </div>  
+                    </div>
+                    <div class="offer__info">
+                        <div class="offer__label">Reality</div>
+                        <div class="offer__texts">
+                            <div class="offer__text">
+                                <div class="offer__icon">
+                                    <img src="./icons/thunder.png" alt="">
+                                </div>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                            </div>
+                            <div class="offer__text">
+                                <div class="offer__icon">
+                                    <img src="./icons/tree.png" alt="">
+                                </div>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__header">
+                    <div class="footer__title">Subscribe to our newsletter</div>
+                    <div class="footer__form">
+                        <img src="./icons/mail.png" alt="">
+                        <input type="text" class="footer__input" placeholder="your@email.com">
+                        <input type="submit" class="footer__button" value="Subscribe">
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="line"></div>
+    
+                    <div class="footer__info">
+    
+                        <div class="footer__col">
+                            <span class="footer__label">Ipsum quis</span>
+                            <div class="footer__list">
+                                <a href="#">Aliquam quis</a>
+                                <a href="#">Pulvinar purus</a>
+                                <a href="#">Etiam cursus</a>
+                                <a href="#">Ipsum</a>
+                                <a href="#">Enim faucibus</a>
+                            </div>
+                        </div>
+    
+                        <div class="footer__col">
+                            <span class="footer__label">Ipsum quis</span>
+                            <div class="footer__list">
+                                <a href="#">Aliquam quis</a>
+                                <a href="#">Pulvinar purus</a>
+                                <a href="#">Etiam cursus</a>
+                                <a href="#">Ipsum</a>
+                                <a href="#">Enim faucibus</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer__col">
+                            <span class="footer__label">Follow me</span>
+                            <div class="footer__socials">
+                                <a href="#">
+                                    <img src="./icons/facebook.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./icons/twitter.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./icons/google.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./icons/youtube.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer__copyright">
+                                Copyright &copy; All Rights reserved
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__window">
+            <div class="modal__close">
+                <img src="./icons/close.svg" alt="">
+            </div>
+            <div class="filter__selections">
+                <div class="select__wrapper select__wrapper_black">
+                    <select class="filter__select">
+                        <option>Dubai</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
+                <button class="filter__button">
+                    Hide map
+                    <img src="./icons/map.png" alt="">
+                </button>
+            </div>
+            <div class="filter__topics">
+                <p>filter:</p>
+                <div class="filter__icons">
+                    <div class="filter__icon filter__icon_green"><img src="./icons/house.png" alt=""></div>
+                    <div class="filter__icon filter__icon_purple"><img src="./icons/person.png" alt=""></div>
+                    <div class="filter__icon filter__icon_green"><img src="./icons/education.png" alt=""></div>
+                    <div class="filter__icon filter__icon_orange"><img src="./icons/music.png" alt=""></div>
+                    <div class="filter__icon filter__icon_purple"><img src="./icons/transport.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
